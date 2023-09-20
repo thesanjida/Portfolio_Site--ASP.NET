@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home - Sanjida Alam";
+}
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home - Sanjida Alam | Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Neucha&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap"
+          rel="stylesheet">
+
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="container home_page">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="home_page__img">
+                        <img src="/assets/IMG_9286.jpg" alt="Sanjida Alam">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="home_page__person">
+                        <h1><span>Sanjida </span>Alam</h1>
+                        <div class="home_page__mail">
+                            <span>Mail:</span> <a href="mailto:sanjida.alam.in.tech@gmail.com">sanjida.alam.in.tech@gmail.com</a>
+                        </div>
+                        <a href="/Portfolio/Skills"><button type="button" class="btn btn-success">Read More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
